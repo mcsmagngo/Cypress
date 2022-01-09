@@ -5,7 +5,7 @@ const faker = require('faker')
 describe('Create Project', () => {
     before(() => cy.login())
 
-    it('sucessfully', () => {
+    it('sucessfullyy', () => {
         const project = {
             name: `project-${faker.random.uuid()}`,
             description: faker.random.words(5)
